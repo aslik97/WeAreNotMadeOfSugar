@@ -3,10 +3,9 @@
 An AI-powered outdoor activity planner that finds the best day and time window for your activity based on a 7-day weather forecast. Type naturally — Claude asks follow-up questions if needed, fetches real weather data, and recommends the optimal day with full reasoning. The best day can be exported as an `.ics` file directly to Apple Calendar, Outlook, or Google Calendar.
 
 ---
-
 ## Demo
 
-> 📹 **[▶ Watch the full demo video](https://github.com/aslik97/WeAreNotMadeOfSugar/releases/download/v1.0/Let.sGo_WeatherApp_v2.mp4)**
+[![Watch the demo](https://img.youtube.com/vi/qmJkkdfZuOs/maxresdefault.jpg)](https://youtu.be/qmJkkdfZuOs)
 
 *Type a city + activity → the agent fetches live weather, scores every day, generates an Adobe Firefly cartoon for the best day, plans your route, and exports to Calendar — all in one conversation.*
 
