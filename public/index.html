@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Let's Go</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div class="app">
+
+    <!-- LEFT: Chat -->
+    <div class="chat-section">
+      <div class="chat-header">
+        <div class="header-top-row">
+          <div class="header-icons">☀️ ⛅ 🌧️ ⛈️ ❄️</div>
+          <button id="new-search-btn" class="new-search-btn hidden" title="Start a new search">↩ New search</button>
+        </div>
+        <h1 class="chat-title">
+          <span class="title-tag yellow">Let's</span>
+          <span class="title-tag pink">Go</span>
+        </h1>
+        <p class="chat-subtitle">You are not made of sugar 🌧️</p>
+      </div>
+
+      <div class="messages" id="messages">
+        <div class="message assistant">
+          <div class="msg-bubble">
+            Hi! I'm your weather planning buddy! 🌤️<br><br>
+            Tell me what outdoor activity you're planning — camping, hiking, sunbathing, jogging, a festival, picnic... anything! Just mention where and roughly when, and I'll find your best weather window this week.
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input-area">
+        <textarea
+          id="user-input"
+          class="chat-input"
+          placeholder="e.g. I want to go hiking near Barcelona this week..."
+          rows="2"
+        ></textarea>
+        <button id="send-btn" class="send-btn">Send ➤</button>
+      </div>
+    </div>
+
+    <!-- RIGHT: Forecast card (hidden until recommendation arrives) -->
+    <div class="forecast-section" id="forecast-section">
+      <div class="forecast-placeholder" id="forecast-placeholder">
+        <div class="placeholder-icons">☀️ ⛅ 🌧️ ⛈️</div>
+        <p>Your personalized weather forecast<br>will appear here after you chat!</p>
+      </div>
+    </div>
+
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
