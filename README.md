@@ -4,6 +4,14 @@ An AI-powered outdoor activity planner that finds the best day and time window f
 
 ---
 
+## Demo
+
+> 📹 **[▶ Watch the full demo video](https://github.com/aslik97/WeAreNotMadeOfSugar/releases/download/v1.0/Let.sGo_WeatherApp_v2.mp4)**
+
+*Type a city + activity → the agent fetches live weather, scores every day, generates an Adobe Firefly cartoon for the best day, plans your route, and exports to Calendar — all in one conversation.*
+
+---
+
 ## Features
 
 - **Natural language input** — type anything: *"I want to go camping near Lake Tahoe this week"*
